@@ -10,7 +10,9 @@ import Foundation
 import UIKit
 class cell: UICollectionViewCell {
 
+    @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var te: UILabel!
+    var type: String!
     var clickable: Bool!
 
 }
